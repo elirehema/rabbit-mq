@@ -11,6 +11,7 @@
 	<groupId>com.rabbit</groupId>
 	<artifactId>mq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<name>mq</name>
 	<description>Rabbit MQ Demo project for Spring Boot</description>
 	<url/>
@@ -48,6 +49,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>spring-rabbit-mq</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
